@@ -6,7 +6,7 @@ class Solution {
         
         for(int i=0; i<temp.length; i++){
           if(temp[i]>='A'&& temp[i]<='Z'){
-           ch = Character.toLowerCase(temp[i]);
+           ch = (char)(temp[i]+32);
           }else{
            ch = temp[i];   
           }           
