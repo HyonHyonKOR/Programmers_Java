@@ -7,7 +7,6 @@ class Solution {
         
         for(int i=0; i< answer.length; i++){
             answer[i] = string[i].length();
-            if(string[i].equals("")) answer[i] =0;
         }
         return answer;
     }
